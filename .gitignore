@@ -23,6 +23,7 @@ web-build/
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+app.json
 
 # macOS
 .DS_Store
