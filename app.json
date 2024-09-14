@@ -15,6 +15,9 @@
       "supportsTablet": true,
       "config": {
         "googleMapsApiKey": "AIzaSyD1eSVeh_9BkvTsk4Ci30tKk21lyS9-XLQ"
+      },
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Necesitamos acceso a tu ubicación para mostrarla en el mapa."
       }
     },
     "android": {
@@ -26,7 +29,11 @@
         "googleMaps": {
           "apiKey": "AIzaSyD1eSVeh_9BkvTsk4Ci30tKk21lyS9-XLQ"
         }
-      }
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
